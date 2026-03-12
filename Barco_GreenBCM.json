@@ -1,0 +1,64 @@
+{
+  "deviceCount" : 1,
+  "devices" : [
+    {
+      "category" : "Other",
+      "commandOrder" : [
+        4,
+        5,
+        2
+      ],
+      "commands" : [
+        {
+          "cmdType" : "button",
+          "command" : "MyWall set OpState wall idle",
+          "encoding" : "ascii",
+          "id" : 4,
+          "isHidden" : false,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power On",
+          "unitSymbol" : "%"
+        },
+        {
+          "cmdType" : "button",
+          "command" : "MyWall set OpState wall on",
+          "encoding" : "ascii",
+          "id" : 5,
+          "isHidden" : false,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power Off",
+          "unitSymbol" : "%"
+        },
+        {
+          "cmdType" : "slider",
+          "command" : "MyWall set TargetBrightness wall {$V}\\r\\n",
+          "encoding" : "ascii",
+          "id" : 2,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Brightness ",
+          "unitSymbol" : " ",
+          "valueRange" : {
+            "max" : 100,
+            "min" : 0
+          }
+        }
+      ],
+      "id" : "11CDA64B-1A21-4222-958C-08D6871B27D1",
+      "ip" : "192.168.0.100",
+      "name" : "Barco GreenBCM",
+      "password" : "",
+      "port" : 23500,
+      "protocolType" : "tcp",
+      "username" : ""
+    }
+  ],
+  "exportDate" : "2026-03-12T12:46:17Z",
+  "version" : "1.0.1"
+}
