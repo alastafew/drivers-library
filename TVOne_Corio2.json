@@ -24,7 +24,10 @@
         16,
         17,
         18,
-        19
+        19,
+        22,
+        23,
+        24
       ],
       "commands" : [
         {
@@ -32,7 +35,6 @@
           "command" : "PowerOn",
           "encoding" : "ascii",
           "id" : 20,
-          "isBasicCommand" : false,
           "isHidden" : true,
           "isLocked" : true,
           "isMuteToggle" : false,
@@ -45,7 +47,6 @@
           "command" : "PowerOff",
           "encoding" : "ascii",
           "id" : 21,
-          "isBasicCommand" : false,
           "isHidden" : true,
           "isLocked" : true,
           "isMuteToggle" : false,
@@ -55,258 +56,275 @@
         },
         {
           "cmdType" : "button",
-          "command" : "",
+          "command" : "1",
           "encoding" : "ascii",
           "id" : 1,
-          "isBasicCommand" : false,
           "isHidden" : false,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Camera ",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "cmdType" : "button",
-          "command" : "",
+          "command" : "2",
           "encoding" : "ascii",
           "id" : 2,
-          "isBasicCommand" : false,
           "isHidden" : false,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "HDMI 2",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "cmdType" : "button",
-          "command" : "",
+          "command" : "3",
           "encoding" : "ascii",
           "id" : 3,
-          "isBasicCommand" : false,
           "isHidden" : false,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Stream ",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "cmdType" : "button",
-          "command" : "",
+          "command" : "4",
           "encoding" : "ascii",
           "id" : 4,
-          "isBasicCommand" : false,
           "isHidden" : false,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "PC BG",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "cmdType" : "button",
-          "command" : "Lout_1_win_1",
+          "command" : "Window1.Input = Slot1.In{$V}",
           "encoding" : "ascii",
           "id" : 5,
-          "isBasicCommand" : false,
           "isHidden" : true,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Lout 1 win 1",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "cmdType" : "button",
-          "command" : "Lout_2_win_1",
+          "command" : "Window2.Input = Slot1.In{$V}",
           "encoding" : "ascii",
           "id" : 6,
-          "isBasicCommand" : false,
           "isHidden" : true,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Lout 2 win 1",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "cmdType" : "button",
-          "command" : "Lout_2_win_2",
+          "command" : "Window3.Input = Slot1.In{$V}",
           "encoding" : "ascii",
           "id" : 7,
-          "isBasicCommand" : false,
           "isHidden" : true,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Lout 2 win 2",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "cmdType" : "button",
-          "command" : "Lout_3_win_1",
+          "command" : "Window4.Input = Slot1.In{$V}",
           "encoding" : "ascii",
           "id" : 8,
-          "isBasicCommand" : false,
           "isHidden" : true,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Lout 3 win 1",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "cmdType" : "button",
-          "command" : "Lout_3_win_2",
+          "command" : "Window5.Input = Slot1.In{$V}",
           "encoding" : "ascii",
           "id" : 9,
-          "isBasicCommand" : false,
           "isHidden" : true,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Lout 3 win 2",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "cmdType" : "button",
-          "command" : "Lout_3_win_3",
+          "command" : "Window6.Input = Slot1.In{$V}",
           "encoding" : "ascii",
           "id" : 10,
-          "isBasicCommand" : false,
           "isHidden" : true,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Lout 3 win 3",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "cmdType" : "button",
-          "command" : "Lout_3_win_4",
+          "command" : "Window7.Input = Slot1.In{$V}",
           "encoding" : "ascii",
           "id" : 11,
-          "isBasicCommand" : false,
           "isHidden" : true,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Lout 3 win 4",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "cmdType" : "button",
-          "command" : "Lout_4_win_1",
+          "command" : "Window8.Input = Slot1.In{$V}",
           "encoding" : "ascii",
           "id" : 12,
-          "isBasicCommand" : false,
           "isHidden" : true,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Lout 4 win 1",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "cmdType" : "button",
-          "command" : "Lout_4_win_2",
+          "command" : "Window9.Input = Slot1.In{$V}",
           "encoding" : "ascii",
           "id" : 13,
-          "isBasicCommand" : false,
           "isHidden" : true,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Lout 4 win 2",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "cmdType" : "button",
-          "command" : "Lout_4_win_3",
+          "command" : "Window10.Input = Slot1.In{$V}",
           "encoding" : "ascii",
           "id" : 14,
-          "isBasicCommand" : false,
           "isHidden" : true,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Lout 4 win 3",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "cmdType" : "button",
-          "command" : "Lout_4_win_4",
+          "command" : "Window11.Input = Slot1.In{$V}",
           "encoding" : "ascii",
           "id" : 15,
-          "isBasicCommand" : false,
           "isHidden" : true,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Lout 4 win 4",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "cmdType" : "button",
-          "command" : "Lout_5_win_1",
+          "command" : "Window12.Input = Slot1.In{$V}",
           "encoding" : "ascii",
           "id" : 16,
-          "isBasicCommand" : false,
           "isHidden" : true,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Lout 5 win 1",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "cmdType" : "button",
-          "command" : "Lout_5_win_2",
+          "command" : "Window13.Input = Slot1.In{$V}",
           "encoding" : "ascii",
           "id" : 17,
-          "isBasicCommand" : false,
           "isHidden" : true,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Lout 5 win 2",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "cmdType" : "button",
-          "command" : "Lout_5_win_3",
+          "command" : "Window14.Input = Slot1.In{$V}",
           "encoding" : "ascii",
           "id" : 18,
-          "isBasicCommand" : false,
           "isHidden" : true,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Lout 5 win 3",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "cmdType" : "button",
-          "command" : "Lout_5_win_4",
+          "command" : "Window15.Input = Slot1.In{$V}",
           "encoding" : "ascii",
           "id" : 19,
-          "isBasicCommand" : false,
           "isHidden" : true,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Lout 5 win 4",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
+        },
+        {
+          "cmdType" : "button",
+          "command" : "Login(admin,adminpw)",
+          "encoding" : "ascii",
+          "id" : 22,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Login",
+          "unitSymbol" : "%"
+        },
+        {
+          "cmdType" : "button",
+          "command" : "Preset.Take = 1",
+          "encoding" : "ascii",
+          "id" : 23,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Call Preset  1",
+          "unitSymbol" : "%"
+        },
+        {
+          "cmdType" : "button",
+          "command" : "Preset.Take = 2",
+          "encoding" : "ascii",
+          "id" : 24,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Call Preset  2",
+          "unitSymbol" : "%"
         }
       ],
-      "id" : "E8285F3C-852A-4081-9688-E463ACC35799",
-      "ip" : "192.168.0.99",
-      "name" : "Wall TVOne Corio",
+      "id" : "977E22B0-7936-49B5-B536-5A09E5EF3D1D",
+      "ip" : "192.168.0.10",
+      "name" : "TVOne CORIOmaster2",
       "password" : "",
-      "port" : 23,
-      "protocolType" : "telnet",
+      "port" : 10001,
+      "protocolType" : "tcp",
       "sourceNames" : {
         "Source 1" : "Camera ",
         "Source 2" : "HDMI 2",
@@ -317,6 +335,6 @@
       "videoDeviceType" : "Video Wall"
     }
   ],
-  "exportDate" : "2026-03-10T13:45:15Z",
+  "exportDate" : "2026-03-12T13:21:13Z",
   "version" : "1.0.1"
 }
