@@ -1,0 +1,109 @@
+{
+  "deviceCount" : 1,
+  "devices" : [
+    {
+      "category" : "Other",
+      "commandOrder" : [
+        4,
+        5,
+        1,
+        2,
+        3,
+        6
+      ],
+      "commands" : [
+        {
+          "cmdType" : "button",
+          "command" : "ka 01 01\\r",
+          "encoding" : "ascii",
+          "id" : 4,
+          "isBasicCommand" : false,
+          "isHidden" : false,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power On",
+          "unitSymbol" : "%"
+        },
+        {
+          "cmdType" : "button",
+          "command" : "ka 01 00\\r",
+          "encoding" : "ascii",
+          "id" : 5,
+          "isBasicCommand" : false,
+          "isHidden" : false,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power Off",
+          "unitSymbol" : "%"
+        },
+        {
+          "cmdType" : "toggle",
+          "command" : "ke 01 0{$V}\\r",
+          "encoding" : "ascii",
+          "id" : 1,
+          "isBasicCommand" : false,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Volume Unmute\/Mute",
+          "unitSymbol" : "%"
+        },
+        {
+          "cmdType" : "slider",
+          "command" : "f 01 OK\/NG{$V} x\\r\\n",
+          "encoding" : "ascii",
+          "id" : 2,
+          "isBasicCommand" : false,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Volume ",
+          "unitSymbol" : " ",
+          "valueRange" : {
+            "max" : 99,
+            "min" : 0
+          }
+        },
+        {
+          "cmdType" : "button",
+          "command" : "xb 01 90\\r ",
+          "encoding" : "ascii",
+          "id" : 3,
+          "isBasicCommand" : false,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "HDMI 1",
+          "unitSymbol" : "%"
+        },
+        {
+          "cmdType" : "button",
+          "command" : "xb 01 91\\r ",
+          "encoding" : "ascii",
+          "id" : 6,
+          "isBasicCommand" : false,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "HDMI 2",
+          "unitSymbol" : "%"
+        }
+      ],
+      "id" : "657BCCA2-2AE9-4849-B466-66600F5FB1DF",
+      "ip" : "192.168.0.109",
+      "name" : "LG Display ",
+      "password" : "",
+      "port" : 10001,
+      "protocolType" : "tcp",
+      "username" : ""
+    }
+  ],
+  "exportDate" : "2026-03-10T13:42:33Z",
+  "version" : "1.0.1"
+}

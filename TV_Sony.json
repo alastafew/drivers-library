@@ -1,0 +1,109 @@
+{
+  "deviceCount" : 1,
+  "devices" : [
+    {
+      "category" : "Other",
+      "commandOrder" : [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "commands" : [
+        {
+          "cmdType" : "button",
+          "command" : "*SCIRCC0000000000000098\n",
+          "encoding" : "ascii",
+          "id" : 1,
+          "isBasicCommand" : false,
+          "isHidden" : false,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power On",
+          "unitSymbol" : ""
+        },
+        {
+          "cmdType" : "button",
+          "command" : "*SCIRCC0000000000000098\n",
+          "encoding" : "ascii",
+          "id" : 2,
+          "isBasicCommand" : false,
+          "isHidden" : false,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power Off",
+          "unitSymbol" : ""
+        },
+        {
+          "cmdType" : "slider",
+          "command" : "*SCVOLU00000000000000{$V}\n",
+          "encoding" : "ascii",
+          "id" : 3,
+          "isBasicCommand" : false,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Volume",
+          "unitSymbol" : "",
+          "valueRange" : {
+            "max" : 100,
+            "min" : 0
+          }
+        },
+        {
+          "cmdType" : "button",
+          "command" : "*SCIRCC0000000000000032\n",
+          "encoding" : "ascii",
+          "id" : 4,
+          "isBasicCommand" : false,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Vol Mute\/Unmute",
+          "unitSymbol" : ""
+        },
+        {
+          "cmdType" : "button",
+          "command" : "*SCIRCC0000000000000030\n",
+          "encoding" : "ascii",
+          "id" : 5,
+          "isBasicCommand" : false,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Volume +",
+          "unitSymbol" : ""
+        },
+        {
+          "cmdType" : "button",
+          "command" : "*SCIRCC0000000000000031\n",
+          "encoding" : "ascii",
+          "id" : 6,
+          "isBasicCommand" : false,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Volume -",
+          "unitSymbol" : ""
+        }
+      ],
+      "id" : "DE4E1C7C-2569-4A05-A5D7-7E538FF31C4F",
+      "ip" : "192.168.0.101",
+      "name" : "TV Sony",
+      "password" : "",
+      "port" : 20060,
+      "protocolType" : "tcp",
+      "username" : ""
+    }
+  ],
+  "exportDate" : "2026-03-05T19:46:30Z",
+  "version" : "1.0.1"
+}

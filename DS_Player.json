@@ -1,0 +1,86 @@
+{
+  "deviceCount" : 1,
+  "devices" : [
+    {
+      "category" : "Other",
+      "commandOrder" : [
+        4,
+        5,
+        3,
+        6,
+        7
+      ],
+      "commands" : [
+        {
+          "cmdType" : "button",
+          "command" : "PowerOn",
+          "encoding" : "ascii",
+          "id" : 4,
+          "isHidden" : true,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power On",
+          "unitSymbol" : ""
+        },
+        {
+          "cmdType" : "button",
+          "command" : "PowerOff",
+          "encoding" : "ascii",
+          "id" : 5,
+          "isHidden" : true,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power Off",
+          "unitSymbol" : ""
+        },
+        {
+          "cmdType" : "button",
+          "command" : "\/start\/movie1.mp4",
+          "encoding" : "ascii",
+          "id" : 3,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Play Movie 1",
+          "unitSymbol" : "%"
+        },
+        {
+          "cmdType" : "button",
+          "command" : "\/start\/movie2.mp4",
+          "encoding" : "ascii",
+          "id" : 6,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Play Movie 2",
+          "unitSymbol" : "%"
+        },
+        {
+          "cmdType" : "button",
+          "command" : "\/pause",
+          "encoding" : "ascii",
+          "id" : 7,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Pause ",
+          "unitSymbol" : "%"
+        }
+      ],
+      "id" : "C6263BE3-42E7-452E-9631-98931EEAC4A1",
+      "ip" : "192.168.0.128",
+      "name" : "DS Player ",
+      "password" : "admin",
+      "port" : 8081,
+      "protocolType" : "http",
+      "username" : "admin"
+    }
+  ],
+  "exportDate" : "2026-03-12T10:07:24Z",
+  "version" : "1.0.1"
+}
