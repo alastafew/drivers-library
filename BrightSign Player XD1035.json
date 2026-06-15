@@ -1,0 +1,125 @@
+{
+  "deviceCount" : 1,
+  "devices" : [
+    {
+      "category" : "Other",
+      "commandOrder" : [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "commands" : [
+        {
+          "cmdType" : "button",
+          "command" : "PowerOn",
+          "encoding" : "ascii",
+          "id" : 1,
+          "isHidden" : true,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power On",
+          "unitSymbol" : ""
+        },
+        {
+          "cmdType" : "button",
+          "command" : "PowerOff",
+          "encoding" : "ascii",
+          "id" : 2,
+          "isHidden" : true,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power Off",
+          "unitSymbol" : ""
+        },
+        {
+          "cmdType" : "button",
+          "command" : "SOD",
+          "encoding" : "ascii",
+          "id" : 3,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Start Of Day Playlist",
+          "unitSymbol" : "%"
+        },
+        {
+          "cmdType" : "button",
+          "command" : "EOD",
+          "encoding" : "ascii",
+          "id" : 4,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "End Of Day Playlist",
+          "unitSymbol" : "%"
+        },
+        {
+          "cmdType" : "button",
+          "command" : "mute",
+          "encoding" : "ascii",
+          "id" : 5,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Mute",
+          "unitSymbol" : "%"
+        },
+        {
+          "cmdType" : "button",
+          "command" : "unmute",
+          "encoding" : "ascii",
+          "id" : 6,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Unmute",
+          "unitSymbol" : "%"
+        },
+        {
+          "cmdType" : "button",
+          "command" : "UP",
+          "encoding" : "ascii",
+          "id" : 7,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Volume Up",
+          "unitSymbol" : "%"
+        },
+        {
+          "cmdType" : "button",
+          "command" : "DOWN",
+          "encoding" : "ascii",
+          "id" : 8,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Volume  Down",
+          "unitSymbol" : "%"
+        }
+      ],
+      "id" : "6E22F185-6C60-4AD3-80CD-EDCBC9C31A1D",
+      "ip" : "192.168.0.108",
+      "name" : "BrightSign Player XD1035",
+      "password" : "",
+      "port" : 5000,
+      "protocolType" : "udp",
+      "username" : ""
+    }
+  ],
+  "exportDate" : "2026-06-15T08:25:15Z",
+  "version" : "1.0.1"
+}
