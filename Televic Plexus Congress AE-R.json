@@ -186,7 +186,7 @@
         {
           "addToScene" : false,
           "cmdType" : "slider",
-          "command" : "\/CoCon\/Microphone\/SetMicrophoneMode\/?Mode=DirectSpeak&MaxNrActive={$V1}&AllowRequest=False",
+          "command" : "\/CoCon\/Microphone\/SetMicrophoneMode\/?Mode=DirectSpeak&MaxNrActive={$V}&AllowRequest=False",
           "defaultValue" : "1.0",
           "encoding" : "ascii",
           "id" : 12,
