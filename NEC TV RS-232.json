@@ -1,0 +1,117 @@
+{
+  "deviceCount" : 1,
+  "devices" : [
+    {
+      "category" : "Other",
+      "commandOrder" : [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "commands" : [
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "01 30 41 30 41 30 43 02 43 32 30 33 44 36 30 30 30 31 03 73 0d",
+          "encoding" : "hex",
+          "id" : 1,
+          "isHidden" : false,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power On",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "01 30 41 30 41 30 43 02 43 32 30 33 44 36 30 30 30 34 03 76 0d ",
+          "encoding" : "hex",
+          "id" : 2,
+          "isHidden" : false,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power Off",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "toggle",
+          "command" : "01 30 41 30 45 30 41 02 30 30 38 44 30 30 30 31 03 09 0d",
+          "encoding" : "hex",
+          "id" : 3,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Volume Unmute\/Mute",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "01 30 41 30 45 30 41 02 30 30 36 30 30 30 31 31 03 72 0D",
+          "encoding" : "hex",
+          "id" : 4,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "HDMI 1",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "01 30 41 30 45 30 41 02 31 31 30 36 30 30 31 32 03 71 0d",
+          "encoding" : "hex",
+          "id" : 5,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "HDMI 2",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "01 30 41 30 45 30 41 02 31 31 30 36 30 30 38 32 03 78 0d",
+          "encoding" : "hex",
+          "id" : 6,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "HDMI 3",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
+        }
+      ],
+      "id" : "88F47091-6463-4FD0-87B3-7D618259D468",
+      "ip" : "192.168.0.114",
+      "name" : "NEC TV RS-232",
+      "password" : "",
+      "port" : 4001,
+      "protocolType" : "tcp",
+      "username" : ""
+    }
+  ],
+  "exportDate" : "2026-06-22T11:29:02Z",
+  "version" : "v.1.1.1"
+}
