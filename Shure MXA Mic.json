@@ -1,0 +1,85 @@
+{
+  "deviceCount" : 1,
+  "devices" : [
+    {
+      "category" : "Other",
+      "commandOrder" : [
+        1,
+        2,
+        3,
+        4
+      ],
+      "commands" : [
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "PowerOn",
+          "encoding" : "ascii",
+          "id" : 1,
+          "isHidden" : true,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power On",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : ""
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "PowerOff",
+          "encoding" : "ascii",
+          "id" : 2,
+          "isHidden" : true,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power Off",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : ""
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "toggle",
+          "command" : "< SET DEVICE_AUDIO_MUTE {$ON} >\\r",
+          "encoding" : "ascii",
+          "id" : 3,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Mute\/Unmute",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "< SET REBOOT >\\r",
+          "encoding" : "ascii",
+          "id" : 4,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Reboot",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
+        }
+      ],
+      "id" : "FEC0FA59-F70C-4CBC-86D0-49A36656CFFC",
+      "ip" : "192.168.0.113",
+      "name" : "Shure MXA Mic",
+      "password" : "",
+      "port" : 2202,
+      "protocolType" : "tcp",
+      "username" : ""
+    }
+  ],
+  "exportDate" : "2026-06-22T11:17:43Z",
+  "version" : "v.1.1.1"
+}
