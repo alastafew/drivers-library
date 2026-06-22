@@ -1,0 +1,127 @@
+{
+  "deviceCount" : 1,
+  "devices" : [
+    {
+      "category" : "Other",
+      "commandOrder" : [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "commands" : [
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "PowerOn",
+          "encoding" : "ascii",
+          "id" : 1,
+          "isHidden" : true,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "isSystemCommand" : false,
+          "name" : "Power On",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : ""
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "PowerOff",
+          "encoding" : "ascii",
+          "id" : 2,
+          "isHidden" : true,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "isSystemCommand" : false,
+          "name" : "Power Off",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : ""
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "slider",
+          "command" : "53 30 30 {$H}",
+          "encoding" : "hex",
+          "id" : 3,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "isSystemCommand" : false,
+          "name" : "Brightness ",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : " ",
+          "valueRange" : {
+            "max" : 64,
+            "min" : 0
+          }
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "53 30 30 30 30 ",
+          "encoding" : "hex",
+          "id" : 4,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "isSystemCommand" : false,
+          "name" : "Brightness 0%",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "53 30 30 32 32",
+          "encoding" : "hex",
+          "id" : 5,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "isSystemCommand" : false,
+          "name" : "Brightness 50%",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : " "
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "53 30 30 36 34",
+          "encoding" : "hex",
+          "id" : 6,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "isSystemCommand" : false,
+          "name" : "Brightness 100%",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : " "
+        }
+      ],
+      "id" : "2AD789C8-FC77-404F-8F4C-46DED61788B1",
+      "ip" : "192.168.0.110",
+      "name" : "Novastar MCTRL RS-232",
+      "password" : "",
+      "port" : 4001,
+      "protocolType" : "tcp",
+      "username" : ""
+    }
+  ],
+  "exportDate" : "2026-04-16T11:42:39Z",
+  "version" : "1.1.1"
+}
