@@ -9,9 +9,7 @@
         3,
         4,
         5,
-        6,
-        7,
-        8
+        6
       ],
       "commands" : [
         {
@@ -46,104 +44,79 @@
         },
         {
           "addToScene" : false,
-          "cmdType" : "button",
-          "command" : "SOD",
+          "cmdType" : "toggle",
+          "command" : "{$Crestron(4,d,21)}",
           "encoding" : "ascii",
           "id" : 3,
           "isHidden" : false,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
-          "name" : "Start Of Day Playlist",
+          "name" : "ID04 Digital Join 21 Toggle",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
-          "unitSymbol" : "%"
+          "unitSymbol" : ""
         },
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "EOD",
+          "command" : "{$Crestron(05,d,15,1)}",
           "encoding" : "ascii",
           "id" : 4,
           "isHidden" : false,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
-          "name" : "End Of Day Playlist",
+          "name" : "ID05 Digital Join 15 On(1)",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
-          "unitSymbol" : "%"
+          "unitSymbol" : ""
         },
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "mute",
+          "command" : "{$Crestron(5,d,15,0)}",
           "encoding" : "ascii",
           "id" : 5,
           "isHidden" : false,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
-          "name" : "Mute",
+          "name" : "ID5 Digital Join 15 Off(0)",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
-          "unitSymbol" : "%"
+          "unitSymbol" : ""
         },
         {
           "addToScene" : false,
-          "cmdType" : "button",
-          "command" : "unmute",
+          "cmdType" : "slider",
+          "command" : "{$Crestron(03,a,5)}",
+          "defaultValue" : "45.0",
           "encoding" : "ascii",
           "id" : 6,
           "isHidden" : false,
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
-          "name" : "Unmute",
+          "name" : "ID3 Analog Join 5",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
-          "unitSymbol" : "%"
-        },
-        {
-          "addToScene" : false,
-          "cmdType" : "button",
-          "command" : "UP",
-          "encoding" : "ascii",
-          "id" : 7,
-          "isHidden" : false,
-          "isLocked" : false,
-          "isMuteToggle" : false,
-          "isPowerCommand" : false,
-          "name" : "Volume Up",
-          "repeatInterval" : 0,
-          "scenes" : "Scene 1",
-          "unitSymbol" : "%"
-        },
-        {
-          "addToScene" : false,
-          "cmdType" : "button",
-          "command" : "DOWN",
-          "encoding" : "ascii",
-          "id" : 8,
-          "isHidden" : false,
-          "isLocked" : false,
-          "isMuteToggle" : false,
-          "isPowerCommand" : false,
-          "name" : "Volume  Down",
-          "repeatInterval" : 0,
-          "scenes" : "Scene 1",
-          "unitSymbol" : "%"
+          "unitSymbol" : "%",
+          "valueRange" : {
+            "max" : 100,
+            "min" : 0
+          }
         }
       ],
-      "id" : "06C3715F-75B7-4041-81C6-C7F31DDD779C",
-      "ip" : "192.168.0.108",
-      "name" : "BrightSign Player XD1035",
+      "id" : "17B0F4E3-FF93-4EC5-B606-309822E4A36A",
+      "ip" : "192.168.0.107",
+      "name" : "Crestron 2,3,4-series Controller",
       "password" : "",
-      "port" : 5000,
-      "protocolType" : "udp",
+      "port" : 41794,
+      "protocolType" : "tcp",
       "username" : ""
     }
   ],
-  "exportDate" : "2026-06-20T12:51:28Z",
+  "exportDate" : "2026-06-20T13:32:36Z",
   "version" : "v.1.1.1"
 }

@@ -1,0 +1,85 @@
+{
+  "deviceCount" : 1,
+  "devices" : [
+    {
+      "category" : "Other",
+      "commandOrder" : [
+        1,
+        2,
+        3,
+        4
+      ],
+      "commands" : [
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "%1POWR {$V}\\r",
+          "encoding" : "ascii",
+          "id" : 1,
+          "isHidden" : false,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power On",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "%1POWR {$V}\\r",
+          "encoding" : "ascii",
+          "id" : 2,
+          "isHidden" : false,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power Off",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "%1INPT31\\r",
+          "encoding" : "ascii",
+          "id" : 3,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Set HDMI 1",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "%1INPT32\\r",
+          "encoding" : "ascii",
+          "id" : 4,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Set HDMI 2",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
+        }
+      ],
+      "id" : "321555E3-B8C1-4FBC-A065-F05F70C58C3F",
+      "ip" : "192.168.0.111",
+      "name" : "PJLink Projectors ",
+      "password" : "",
+      "port" : 4352,
+      "protocolType" : "tcp",
+      "username" : ""
+    }
+  ],
+  "exportDate" : "2026-06-20T13:18:44Z",
+  "version" : "v.1.1.1"
+}
