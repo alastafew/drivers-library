@@ -1,0 +1,73 @@
+{
+  "deviceCount" : 1,
+  "devices" : [
+    {
+      "category" : "Other",
+      "commandOrder" : [
+        1,
+        2,
+        3
+      ],
+      "commands" : [
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "MyWall set OpState wall idle",
+          "encoding" : "ascii",
+          "id" : 1,
+          "isHidden" : false,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power On",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "MyWall set OpState wall on",
+          "encoding" : "ascii",
+          "id" : 2,
+          "isHidden" : false,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power Off",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "slider",
+          "command" : "MyWall set TargetBrightness wall {$V}\\r\\n",
+          "encoding" : "ascii",
+          "id" : 3,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Brightness ",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%",
+          "valueRange" : {
+            "max" : 100,
+            "min" : 0
+          }
+        }
+      ],
+      "id" : "23C0A13E-F301-4DDE-8E8A-D3AAAE6F66D5",
+      "ip" : "192.168.0.109",
+      "name" : "Barco GreenBCM Wall Controller",
+      "password" : "",
+      "port" : 23500,
+      "protocolType" : "tcp",
+      "username" : ""
+    }
+  ],
+  "exportDate" : "2026-06-20T13:12:39Z",
+  "version" : "v.1.1.1"
+}
