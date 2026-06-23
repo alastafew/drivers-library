@@ -17,7 +17,7 @@
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "*SCIRCC0000000000000098",
+          "command" : "*SCIRCC0000000000000098\\n",
           "encoding" : "ascii",
           "id" : 1,
           "isHidden" : false,
@@ -32,7 +32,7 @@
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "*SCIRCC0000000000000098",
+          "command" : "*SCIRCC0000000000000098\\n",
           "encoding" : "ascii",
           "id" : 2,
           "isHidden" : false,
@@ -47,7 +47,7 @@
         {
           "addToScene" : false,
           "cmdType" : "toggle",
-          "command" : "*SCIRCC0000000000000032",
+          "command" : "*SCIRCC0000000000000032\\n",
           "encoding" : "ascii",
           "id" : 3,
           "isHidden" : false,
@@ -62,7 +62,7 @@
         {
           "addToScene" : false,
           "cmdType" : "slider",
-          "command" : "*SCVOLU00000000000000{$V2}",
+          "command" : "*SCVOLU00000000000000{$V2}\\n",
           "encoding" : "ascii",
           "id" : 4,
           "isHidden" : false,
@@ -81,7 +81,7 @@
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "*SCINPT0000000100000001",
+          "command" : "*SCINPT0000000100000001\\n",
           "encoding" : "ascii",
           "id" : 5,
           "isHidden" : false,
@@ -96,7 +96,7 @@
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "*SCINPT0000000100000002",
+          "command" : "*SCINPT0000000100000002\\n",
           "encoding" : "ascii",
           "id" : 6,
           "isHidden" : false,
@@ -111,7 +111,7 @@
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "*SCIRCC0000000000000030",
+          "command" : "*SCIRCC0000000000000030\\n",
           "encoding" : "ascii",
           "id" : 7,
           "isHidden" : false,
@@ -126,7 +126,7 @@
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "*SCIRCC0000000000000031",
+          "command" : "*SCIRCC0000000000000031\\n",
           "encoding" : "ascii",
           "id" : 8,
           "isHidden" : false,
