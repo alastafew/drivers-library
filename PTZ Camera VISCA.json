@@ -16,7 +16,8 @@
         10,
         11,
         12,
-        13
+        13,
+        15
       ],
       "commands" : [
         {
@@ -32,7 +33,7 @@
           "name" : "Power On",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "addToScene" : false,
@@ -52,77 +53,77 @@
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "01 00 00 09 01 00 00 00 81 01 06 01 07 07 03 01 FF",
+          "command" : "01 00 00 09 00 00 00 00 81 01 06 01 01 01 03 01 FF",
           "encoding" : "hex",
           "id" : 3,
           "isHidden" : false,
-          "isLocked" : false,
+          "isLocked" : true,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Up",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "01 00 00 09 01 00 00 00 81 01 06 01 07 07 03 02 FF",
+          "command" : "01 00 00 09 00 00 00 00 81 01 06 01 01 01 03 02 FF",
           "encoding" : "hex",
           "id" : 4,
           "isHidden" : false,
-          "isLocked" : false,
+          "isLocked" : true,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Down",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "01 00 00 09 01 00 00 00 81 01 06 01 07 07 01 03 FF",
+          "command" : "01 00 00 09 00 00 00 00 81 01 06 01 01 01 01 03 FF",
           "encoding" : "hex",
           "id" : 5,
           "isHidden" : false,
-          "isLocked" : false,
+          "isLocked" : true,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Left",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "01 00 00 09 01 00 00 00 81 01 06 01 07 07 02 03 FF",
+          "command" : "01 00 00 09 00 00 00 00 81 01 06 01 01 01 02 03 FF",
           "encoding" : "hex",
           "id" : 6,
           "isHidden" : false,
-          "isLocked" : false,
+          "isLocked" : true,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Right",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "01 00 00 09 01 00 00 00 81 01 06 01 07 07 03 03 FF",
+          "command" : "01 00 00 09 01 00 00 00 81 01 06 01 01 01 03 03 FF",
           "encoding" : "hex",
           "id" : 7,
           "isHidden" : false,
-          "isLocked" : false,
+          "isLocked" : true,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Stop",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "addToScene" : false,
@@ -142,81 +143,96 @@
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "01 00 00 06 00 00 00 00 81 01 04 07 03 FF",
+          "command" : "01 00 00 06 00 00 00 00 81 01 04 07 31 FF",
           "encoding" : "hex",
           "id" : 9,
           "isHidden" : false,
-          "isLocked" : false,
+          "isLocked" : true,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Zoom -",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "01 00 00 07 01 00 00 00 81 01 04 3F 02 01 FF",
+          "command" : "01 00 00 09 01 00 00 00 81 01 04 3F 02 00 FF",
           "encoding" : "hex",
           "id" : 10,
           "isHidden" : false,
-          "isLocked" : false,
+          "isLocked" : true,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Preset 1",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "01 00 00 07 01 00 00 00 81 01 04 3F 02 02 FF",
+          "command" : "01 00 00 09 01 00 00 01 81 01 04 3F 02 01 FF",
           "encoding" : "hex",
           "id" : 11,
           "isHidden" : false,
-          "isLocked" : false,
+          "isLocked" : true,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Preset 2",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "01 00 00 07 01 00 00 00 81 01 04 3F 02 03 FF",
+          "command" : "01 00 00 09 01 00 00 02 81 01 04 3F 02 02 FF",
           "encoding" : "hex",
           "id" : 12,
           "isHidden" : false,
-          "isLocked" : false,
+          "isLocked" : true,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Preset 3",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "01 00 00 07 01 00 00 00 81 01 04 3F 01 01 FF",
+          "command" : "01 00 00 09 00 00 00 00 81 01 04 3F 01 00 FF",
           "encoding" : "hex",
           "id" : 13,
           "isHidden" : false,
-          "isLocked" : false,
+          "isLocked" : true,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
           "name" : "Save",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "01 00 00 06 00 00 00 00 81 01 04 07 00 FF",
+          "encoding" : "hex",
+          "id" : 15,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Stop Zoom",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
         }
       ],
-      "id" : "83089D7F-FA06-4E60-AB6E-7E7610496531",
-      "ip" : "192.168.0.114",
+      "id" : "ADECA6DA-EFBD-4888-A9BF-4F2DC2B339E1",
+      "ip" : "192.168.0.112",
       "name" : "PTZ Camera Visca",
       "password" : "",
       "port" : 52381,
@@ -224,6 +240,6 @@
       "username" : ""
     }
   ],
-  "exportDate" : "2026-06-22T11:25:03Z",
+  "exportDate" : "2026-07-01T11:58:03Z",
   "version" : "v.1.1.1"
 }
