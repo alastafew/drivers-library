@@ -1,0 +1,117 @@
+{
+  "deviceCount" : 1,
+  "devices" : [
+    {
+      "category" : "Other",
+      "commandOrder" : [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "commands" : [
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "PowerOn",
+          "encoding" : "ascii",
+          "id" : 1,
+          "isHidden" : true,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power On",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : ""
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "PowerOff",
+          "encoding" : "ascii",
+          "id" : 2,
+          "isHidden" : true,
+          "isLocked" : true,
+          "isMuteToggle" : false,
+          "isPowerCommand" : true,
+          "name" : "Power Off",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : ""
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "\/update?switch=RESUME",
+          "encoding" : "ascii",
+          "id" : 3,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Play",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "\/update?switch=PAUSE",
+          "encoding" : "ascii",
+          "id" : 4,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Pause ",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "\/update?switch=NEXT",
+          "encoding" : "ascii",
+          "id" : 5,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Next",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
+        },
+        {
+          "addToScene" : false,
+          "cmdType" : "button",
+          "command" : "\/update?switch=PREVIOUS",
+          "encoding" : "ascii",
+          "id" : 6,
+          "isHidden" : false,
+          "isLocked" : false,
+          "isMuteToggle" : false,
+          "isPowerCommand" : false,
+          "name" : "Previous ",
+          "repeatInterval" : 0,
+          "scenes" : "Scene 1",
+          "unitSymbol" : "%"
+        }
+      ],
+      "id" : "A5159F00-979D-4EEF-9086-4430AA3A629A",
+      "ip" : "192.168.0.136",
+      "name" : "Spinetix Player HMP",
+      "password" : "",
+      "port" : 1234,
+      "protocolType" : "http",
+      "username" : "b645576d-dcfa-4c1f-825c-d410a63522fd"
+    }
+  ],
+  "exportDate" : "2026-07-23T13:15:56Z",
+  "version" : "v.1.1.1"
+}
