@@ -52,7 +52,7 @@
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
-          "name" : "Play",
+          "name" : "▶︎",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
           "unitSymbol" : "%"
@@ -67,7 +67,7 @@
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
-          "name" : "Pause ",
+          "name" : "❚❚ ",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
           "unitSymbol" : "%"
@@ -82,7 +82,7 @@
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
-          "name" : "Next",
+          "name" : "▶︎▶︎I",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
           "unitSymbol" : "%"
@@ -97,13 +97,13 @@
           "isLocked" : false,
           "isMuteToggle" : false,
           "isPowerCommand" : false,
-          "name" : "Previous ",
+          "name" : "I◀◀",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
           "unitSymbol" : "%"
         }
       ],
-      "id" : "A5159F00-979D-4EEF-9086-4430AA3A629A",
+      "id" : "DDBA83F1-28AA-4BD2-B3B4-58075203C34C",
       "ip" : "192.168.0.136",
       "name" : "Spinetix Player HMP",
       "password" : "",
@@ -112,6 +112,6 @@
       "username" : "b645576d-dcfa-4c1f-825c-d410a63522fd"
     }
   ],
-  "exportDate" : "2026-07-23T13:15:56Z",
+  "exportDate" : "2026-07-25T09:53:25Z",
   "version" : "v.1.1.1"
 }
