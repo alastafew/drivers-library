@@ -24,32 +24,32 @@
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "PowerOn",
+          "command" : "\/cgi-bin\/aw_ptz?cmd=#O1&res=1",
           "encoding" : "ascii",
           "id" : 1,
-          "isHidden" : true,
+          "isHidden" : false,
           "isLocked" : true,
           "isMuteToggle" : false,
           "isPowerCommand" : true,
           "name" : "Power On",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "addToScene" : false,
           "cmdType" : "button",
-          "command" : "PowerOff",
+          "command" : "\/cgi-bin\/aw_ptz?cmd=#O0&res=1",
           "encoding" : "ascii",
           "id" : 2,
-          "isHidden" : true,
+          "isHidden" : false,
           "isLocked" : true,
           "isMuteToggle" : false,
           "isPowerCommand" : true,
           "name" : "Power Off",
           "repeatInterval" : 0,
           "scenes" : "Scene 1",
-          "unitSymbol" : ""
+          "unitSymbol" : "%"
         },
         {
           "addToScene" : false,
@@ -247,8 +247,8 @@
           "unitSymbol" : ""
         }
       ],
-      "id" : "6F25B86C-0AAE-4879-94D6-20EB8200A3F2",
-      "ip" : "192.168.0.104",
+      "id" : "533419D4-840B-4A70-B790-2FD477B61448",
+      "ip" : "192.168.0.21",
       "name" : "PTZ Camera Panasonic AW-UE",
       "password" : "admin",
       "port" : 80,
@@ -256,6 +256,6 @@
       "username" : "admin"
     }
   ],
-  "exportDate" : "2026-06-20T12:45:34Z",
+  "exportDate" : "2026-07-30T14:08:42Z",
   "version" : "v.1.1.1"
 }
