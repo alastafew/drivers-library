@@ -8,6 +8,8 @@ We are not responsible if any commands do not work or do not function correctly 
 
 Disk:
 
-Example.svg file for Spinetix Player:https://drive.google.com/file/d/19INRXxEvkG_bo9V5fr2ttjT_tQv2IyfZ/view?usp=share_link
+- Example.svg file for Spinetix Player:
+https://drive.google.com/file/d/19INRXxEvkG_bo9V5fr2ttjT_tQv2IyfZ/view?usp=share_link
 
-Example22.bpfx file for BrightSign XT245 Player:https://drive.google.com/file/d/1MYzPvvfLY9vWBRRXYJz82iFCsiiNu0L3/view?usp=share_link
+- Example22.bpfx file for BrightSign XT245 Player:
+https://drive.google.com/file/d/1MYzPvvfLY9vWBRRXYJz82iFCsiiNu0L3/view?usp=share_link
